@@ -12,7 +12,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   if (!doc) notFound();
 
   return (
-    <main className="your-preconfigured-container">
+    <main className="doc-container">
       <header>
         <h1>{doc.metadata.title}</h1>
       </header>
