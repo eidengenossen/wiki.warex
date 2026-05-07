@@ -18,7 +18,7 @@ export default function EditorClient({ slug, initialContent, initialTitle }: any
   };
 
   return (
-    <div className="editor-container"> {/* Your preconfigured CSS class */}
+    <div className="editor-container">
       <textarea 
         value={content} 
         onChange={(e) => setContent(e.target.value)}
