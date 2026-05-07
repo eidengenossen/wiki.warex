@@ -1,0 +1,15 @@
+# https://www.robotstxt.org/robotstxt.html
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Block crawling of sensitive or private directories (if applicable)
+# Disallow: /api/
+# Disallow: /admin/
+
+# Host
+Host: https://www.warex.org
+
+# Sitemap location
+Sitemap: https://www.warex.org/sitemap.xml
